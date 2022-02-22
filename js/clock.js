@@ -1,7 +1,7 @@
 const name = prompt("Please enter your name")
 
 const myNameSpan = document.getElementById("myName")
-myNameSpan.innerHTML = name || "kullanıcı"
+myNameSpan.innerHTML = name
 
 const myClockDiv = document.getElementById("myClock")
 myClockDiv.innerHTML = "00:00:00"
