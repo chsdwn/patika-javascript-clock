@@ -7,7 +7,6 @@ const myClockDiv = document.getElementById("myClock")
 myClockDiv.innerHTML = "00:00:00"
 
 const showTime = () => {
-  console.log("showTime")
   setInterval(() => {
     const now = new Date()
     const hours = now.getHours().toString().padStart(2, "0")
